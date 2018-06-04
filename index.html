@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ES6</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="mapWrapper">
+        <table id="map">
+          <tr id="mapRow1">
+            <td class="mapCell road" id="mapCell-1,1">▓</td>
+            <td class="mapCell road" id="mapCell0,1">▓</td>
+            <td class="mapCell road" id="mapCell1,1">▓</td>
+          </tr>
+          <tr id="mapRow0">
+            <td class="mapCell road" id="mapCell-1,0">▓</td>
+            <td class="mapCell road" id="mapCell0,0">▓</td>
+            <td class="mapCell road" id="mapCell1,0">▓</td>
+          </tr>
+          <tr id="mapRow-1">
+            <td class="mapCell road" id="mapCell-1,-1">▓</td>
+            <td class="mapCell road" id="mapCell0,-1">▓</td>
+            <td class="mapCell road" id="mapCell1,-1">▓</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="bottomRight">
+        <div id="location">
+
+        </div>
+      </div>
+
+      <div class="topRight">
+        <p>The Adventures of Ü</p>
+        <button id="newGameButton">New Game</button>
+        <div id="coordinates">
+          <p>(0, 0)</p>
+        </div>
+        <div id="inventory">
+          <p>Inventory</p>
+        </div>
+      </div>
+
+      <div class="topLeft">
+      </div>
+
+      <div class="bottomLeft">
+        <div id="output">
+
+        </div>
+
+        <div class="directionButtons">
+          <button class="directionButton" id="northButton">North</button>
+          <button class="directionButton" id="southButton">South</button>
+          <button class="directionButton" id="eastButton">East</button>
+          <button class="directionButton" id="westButton">West</button>
+        </div>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="bundle.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+
+  </body>
+</html>
