@@ -20,7 +20,7 @@ let inventory = {
   pickaxe: null
 };
 
-let currentTerrain = '&blk14;';
+let currentTerrain = '▓';
 
 let roadMap = [[true]];
 let roadQuadrants = [[{x: 0, y:0}]];
