@@ -582,7 +582,7 @@ function newGame(){
     shovel: undefined
   };
 
-  currentTerrain = '&blk14;';
+  currentTerrain = '▓';
 
   roadMap = [[true]];
   roadQuadrants = [[{x: 0, y:0}]];
